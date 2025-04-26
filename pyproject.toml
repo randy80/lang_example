@@ -1,0 +1,6 @@
+[project]
+name = "lagn-study"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = " <4.0,>=3.9.0"
+dependencies = ["langgraph (>=0.3.34,<0.4.0)", "langsmith (>=0.3.37,<0.4.0)", "langchain-openai (>=0.3.14,<0.4.0)"]
