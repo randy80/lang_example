@@ -3,4 +3,4 @@ name = "lagn-study"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = " <4.0,>=3.9.0"
-dependencies = ["langgraph (>=0.3.34,<0.4.0)", "langsmith (>=0.3.37,<0.4.0)", "langchain-openai (>=0.3.14,<0.4.0)"]
+dependencies = ["langgraph (>=0.3.34,<0.4.0)", "langsmith (>=0.3.37,<0.4.0)", "langchain-openai (>=0.3.14,<0.4.0)", "tavily-python (>=0.7.0,<0.8.0)", "langchain-community (>=0.3.22,<0.4.0)", "pyyaml (>=6.0.2,<7.0.0)"]
