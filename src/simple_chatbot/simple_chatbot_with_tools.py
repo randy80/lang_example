@@ -27,11 +27,11 @@ class State(TypedDict):
 
 graph_builder = StateGraph(State)
 
-from langchain_openai import ChatOpenAI
+from langchain.chat_models import init_chat_model
 
-llm = ChatOpenAI(
+llm = init_chat_model(
     base_url="http://127.0.0.1:1234/v1",
-    model="lmstudio-community/gemma-3-4B-it-qat",
+    model="openai:lmstudio-community/gemma-3-4B-it-qat",
     openai_api_key="lm-studio",
     temperature=0.8,
 )
